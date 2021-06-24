@@ -53,75 +53,75 @@
 <path fill="none" stroke="#707070" d="M490.49,-242.88C496.12,-239.97 501.7,-236.99 507,-234 516.05,-228.89 525.5,-223.1 534.49,-217.35"/>
 <polygon fill="#707070" stroke="#707070" points="536.45,-220.25 542.94,-211.88 532.64,-214.38 536.45,-220.25"/>
 </g>
-<!-- IamBinding::::roles/compute.admin -->
+<!-- IamPolicy::::policy -->
 <g id="node5" class="node">
+<title>IamPolicy::::policy</title>
+<polygon fill="#e5e5e5" stroke="#dddddd" points="213.5,-1117 121.5,-1117 121.5,-1059 213.5,-1059 213.5,-1117"/>
+<text text-anchor="start" x="133.5" y="-1097.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamPolicy</text>
+<text text-anchor="start" x="133.5" y="-1072.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">policy</text>
+</g>
+<!-- IamBinding::::roles/compute.admin -->
+<g id="node6" class="node">
 <title>IamBinding::::roles/compute.admin</title>
-<polygon fill="#e5e5e5" stroke="#dddddd" points="251,-1117 84,-1117 84,-1059 251,-1059 251,-1117"/>
-<text text-anchor="start" x="96.5" y="-1097.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
-<text text-anchor="start" x="96.5" y="-1072.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/compute.admin</text>
+<polygon fill="#e5e5e5" stroke="#dddddd" points="251,-1041 84,-1041 84,-983 251,-983 251,-1041"/>
+<text text-anchor="start" x="96.5" y="-1021.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
+<text text-anchor="start" x="96.5" y="-996.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/compute.admin</text>
 </g>
 <!-- IamBinding::::roles/compute.serviceAgent -->
-<g id="node6" class="node">
+<g id="node7" class="node">
 <title>IamBinding::::roles/compute.serviceAgent</title>
-<polygon fill="#e5e5e5" stroke="#dddddd" points="277.5,-1041 57.5,-1041 57.5,-983 277.5,-983 277.5,-1041"/>
-<text text-anchor="start" x="69.5" y="-1021.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
-<text text-anchor="start" x="69.5" y="-996.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/compute.serviceAgent</text>
+<polygon fill="#e5e5e5" stroke="#dddddd" points="277.5,-965 57.5,-965 57.5,-907 277.5,-907 277.5,-965"/>
+<text text-anchor="start" x="69.5" y="-945.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
+<text text-anchor="start" x="69.5" y="-920.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/compute.serviceAgent</text>
 </g>
 <!-- IamBinding::::roles/compute.viewer -->
-<g id="node7" class="node">
+<g id="node8" class="node">
 <title>IamBinding::::roles/compute.viewer</title>
-<polygon fill="#e5e5e5" stroke="#dddddd" points="255,-965 80,-965 80,-907 255,-907 255,-965"/>
-<text text-anchor="start" x="92.5" y="-945.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
-<text text-anchor="start" x="92.5" y="-920.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/compute.viewer</text>
+<polygon fill="#e5e5e5" stroke="#dddddd" points="255,-889 80,-889 80,-831 255,-831 255,-889"/>
+<text text-anchor="start" x="92.5" y="-869.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
+<text text-anchor="start" x="92.5" y="-844.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/compute.viewer</text>
 </g>
 <!-- IamBinding::::roles/dns.admin -->
-<g id="node8" class="node">
+<g id="node9" class="node">
 <title>IamBinding::::roles/dns.admin</title>
-<polygon fill="#e5e5e5" stroke="#dddddd" points="236,-889 99,-889 99,-831 236,-831 236,-889"/>
-<text text-anchor="start" x="111.5" y="-869.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
-<text text-anchor="start" x="111.5" y="-844.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/dns.admin</text>
+<polygon fill="#e5e5e5" stroke="#dddddd" points="236,-813 99,-813 99,-755 236,-755 236,-813"/>
+<text text-anchor="start" x="111.5" y="-793.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
+<text text-anchor="start" x="111.5" y="-768.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/dns.admin</text>
 </g>
 <!-- IamBinding::::roles/iam.serviceAccountAdmin -->
-<g id="node9" class="node">
+<g id="node10" class="node">
 <title>IamBinding::::roles/iam.serviceAccountAdmin</title>
-<polygon fill="#e5e5e5" stroke="#dddddd" points="288.5,-813 46.5,-813 46.5,-755 288.5,-755 288.5,-813"/>
-<text text-anchor="start" x="58.5" y="-793.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
-<text text-anchor="start" x="58.5" y="-768.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/iam.serviceAccountAdmin</text>
+<polygon fill="#e5e5e5" stroke="#dddddd" points="288.5,-737 46.5,-737 46.5,-679 288.5,-679 288.5,-737"/>
+<text text-anchor="start" x="58.5" y="-717.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
+<text text-anchor="start" x="58.5" y="-692.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/iam.serviceAccountAdmin</text>
 </g>
 <!-- IamBinding::::roles/owner -->
-<g id="node10" class="node">
+<g id="node11" class="node">
 <title>IamBinding::::roles/owner</title>
-<polygon fill="#e5e5e5" stroke="#dddddd" points="221,-737 114,-737 114,-679 221,-679 221,-737"/>
-<text text-anchor="start" x="126.5" y="-717.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
-<text text-anchor="start" x="126.5" y="-692.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/owner</text>
+<polygon fill="#e5e5e5" stroke="#dddddd" points="221,-661 114,-661 114,-603 221,-603 221,-661"/>
+<text text-anchor="start" x="126.5" y="-641.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
+<text text-anchor="start" x="126.5" y="-616.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/owner</text>
 </g>
 <!-- IamBinding::::roles/resourcemanager.projectIamAdmin -->
-<g id="node11" class="node">
+<g id="node12" class="node">
 <title>IamBinding::::roles/resourcemanager.projectIamAdmin</title>
-<polygon fill="#e5e5e5" stroke="#dddddd" points="311,-661 24,-661 24,-603 311,-603 311,-661"/>
-<text text-anchor="start" x="36.5" y="-641.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
-<text text-anchor="start" x="36.5" y="-616.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/resourcemanager.projectIam...</text>
+<polygon fill="#e5e5e5" stroke="#dddddd" points="311,-585 24,-585 24,-527 311,-527 311,-585"/>
+<text text-anchor="start" x="36.5" y="-565.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
+<text text-anchor="start" x="36.5" y="-540.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/resourcemanager.projectIam...</text>
 </g>
 <!-- IamBinding::::roles/storage.admin -->
-<g id="node12" class="node">
+<g id="node13" class="node">
 <title>IamBinding::::roles/storage.admin</title>
-<polygon fill="#e5e5e5" stroke="#dddddd" points="251,-585 84,-585 84,-527 251,-527 251,-585"/>
-<text text-anchor="start" x="96.5" y="-565.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
-<text text-anchor="start" x="96.5" y="-540.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/storage.admin</text>
+<polygon fill="#e5e5e5" stroke="#dddddd" points="251,-509 84,-509 84,-451 251,-451 251,-509"/>
+<text text-anchor="start" x="96.5" y="-489.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
+<text text-anchor="start" x="96.5" y="-464.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/storage.admin</text>
 </g>
 <!-- IamBinding::::roles/storage.objectAdmin -->
-<g id="node13" class="node">
-<title>IamBinding::::roles/storage.objectAdmin</title>
-<polygon fill="#e5e5e5" stroke="#dddddd" points="273.5,-509 61.5,-509 61.5,-451 273.5,-451 273.5,-509"/>
-<text text-anchor="start" x="73.5" y="-489.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
-<text text-anchor="start" x="73.5" y="-464.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/storage.objectAdmin</text>
-</g>
-<!-- IamPolicy::::policy -->
 <g id="node14" class="node">
-<title>IamPolicy::::policy</title>
-<polygon fill="#e5e5e5" stroke="#dddddd" points="213.5,-433 121.5,-433 121.5,-375 213.5,-375 213.5,-433"/>
-<text text-anchor="start" x="133.5" y="-413.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamPolicy</text>
-<text text-anchor="start" x="133.5" y="-388.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">policy</text>
+<title>IamBinding::::roles/storage.objectAdmin</title>
+<polygon fill="#e5e5e5" stroke="#dddddd" points="273.5,-433 61.5,-433 61.5,-375 273.5,-375 273.5,-433"/>
+<text text-anchor="start" x="73.5" y="-413.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
+<text text-anchor="start" x="73.5" y="-388.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/storage.objectAdmin</text>
 </g>
 <!-- ServiceAccount::::112950954233185370823 -->
 <g id="node15" class="node">
