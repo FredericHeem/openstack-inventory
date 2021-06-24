@@ -22,106 +22,106 @@
 <!-- Network::::4210819110226468163 -->
 <g id="node1" class="node">
 <title>Network::::4210819110226468163</title>
-<polygon fill="#e5e5e5" stroke="#dddddd" points="620,-139 543,-139 543,-81 620,-81 620,-139"/>
-<text text-anchor="start" x="555.5" y="-119.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">Network</text>
-<text text-anchor="start" x="555.5" y="-94.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">rhmig</text>
+<polygon fill="#e5e5e5" stroke="#dddddd" points="620,-215 543,-215 543,-157 620,-157 620,-215"/>
+<text text-anchor="start" x="555.5" y="-195.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">Network</text>
+<text text-anchor="start" x="555.5" y="-170.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">rhmig</text>
+</g>
+<!-- Disk::::821594300226313540 -->
+<g id="node2" class="node">
+<title>Disk::::821594300226313540</title>
+<polygon fill="#e5e5e5" stroke="#dddddd" points="477,-149 377,-149 377,-91 477,-91 477,-149"/>
+<text text-anchor="start" x="389" y="-129.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">Disk</text>
+<text text-anchor="start" x="389" y="-104.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">extra&#45;disk</text>
+</g>
+<!-- Disk::::7781482283910405429 -->
+<g id="node3" class="node">
+<title>Disk::::7781482283910405429</title>
+<polygon fill="#e5e5e5" stroke="#dddddd" points="469.5,-225 384.5,-225 384.5,-167 469.5,-167 469.5,-225"/>
+<text text-anchor="start" x="397" y="-205.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">Disk</text>
+<text text-anchor="start" x="397" y="-180.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">s1&#45;2&#45;uk1</text>
 </g>
 <!-- SubNetwork::::6178918638745656621 -->
-<g id="node2" class="node">
+<g id="node4" class="node">
 <title>SubNetwork::::6178918638745656621</title>
-<polygon fill="#e5e5e5" stroke="#dddddd" points="507,-149 347,-149 347,-91 507,-91 507,-149"/>
-<text text-anchor="start" x="359" y="-129.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">SubNetwork</text>
-<text text-anchor="start" x="359" y="-104.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">subnet&#45;10&#45;0&#45;0&#45;0&#45;16</text>
+<polygon fill="#e5e5e5" stroke="#dddddd" points="507,-301 347,-301 347,-243 507,-243 507,-301"/>
+<text text-anchor="start" x="359" y="-281.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">SubNetwork</text>
+<text text-anchor="start" x="359" y="-256.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">subnet&#45;10&#45;0&#45;0&#45;0&#45;16</text>
 </g>
 <!-- SubNetwork::::6178918638745656621&#45;&gt;Network::::4210819110226468163 -->
 <g id="edge1" class="edge">
 <title>SubNetwork::::6178918638745656621&#45;&gt;Network::::4210819110226468163</title>
-<path fill="none" stroke="#707070" d="M507.38,-114.79C515.93,-114.23 524.43,-113.68 532.45,-113.15"/>
-<polygon fill="#707070" stroke="#707070" points="532.93,-116.63 542.68,-112.48 532.47,-109.64 532.93,-116.63"/>
+<path fill="none" stroke="#707070" d="M490.49,-242.88C496.12,-239.97 501.7,-236.99 507,-234 516.05,-228.89 525.5,-223.1 534.49,-217.35"/>
+<polygon fill="#707070" stroke="#707070" points="536.45,-220.25 542.94,-211.88 532.64,-214.38 536.45,-220.25"/>
 </g>
 <!-- IamBinding::::roles/compute.admin -->
-<g id="node3" class="node">
+<g id="node5" class="node">
 <title>IamBinding::::roles/compute.admin</title>
 <polygon fill="#e5e5e5" stroke="#dddddd" points="251,-1117 84,-1117 84,-1059 251,-1059 251,-1117"/>
 <text text-anchor="start" x="96.5" y="-1097.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
 <text text-anchor="start" x="96.5" y="-1072.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/compute.admin</text>
 </g>
 <!-- IamBinding::::roles/compute.serviceAgent -->
-<g id="node4" class="node">
+<g id="node6" class="node">
 <title>IamBinding::::roles/compute.serviceAgent</title>
 <polygon fill="#e5e5e5" stroke="#dddddd" points="277.5,-1041 57.5,-1041 57.5,-983 277.5,-983 277.5,-1041"/>
 <text text-anchor="start" x="69.5" y="-1021.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
 <text text-anchor="start" x="69.5" y="-996.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/compute.serviceAgent</text>
 </g>
 <!-- IamBinding::::roles/compute.viewer -->
-<g id="node5" class="node">
+<g id="node7" class="node">
 <title>IamBinding::::roles/compute.viewer</title>
 <polygon fill="#e5e5e5" stroke="#dddddd" points="255,-965 80,-965 80,-907 255,-907 255,-965"/>
 <text text-anchor="start" x="92.5" y="-945.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
 <text text-anchor="start" x="92.5" y="-920.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/compute.viewer</text>
 </g>
 <!-- IamBinding::::roles/dns.admin -->
-<g id="node6" class="node">
+<g id="node8" class="node">
 <title>IamBinding::::roles/dns.admin</title>
 <polygon fill="#e5e5e5" stroke="#dddddd" points="236,-889 99,-889 99,-831 236,-831 236,-889"/>
 <text text-anchor="start" x="111.5" y="-869.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
 <text text-anchor="start" x="111.5" y="-844.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/dns.admin</text>
 </g>
 <!-- IamBinding::::roles/iam.serviceAccountAdmin -->
-<g id="node7" class="node">
+<g id="node9" class="node">
 <title>IamBinding::::roles/iam.serviceAccountAdmin</title>
 <polygon fill="#e5e5e5" stroke="#dddddd" points="288.5,-813 46.5,-813 46.5,-755 288.5,-755 288.5,-813"/>
 <text text-anchor="start" x="58.5" y="-793.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
 <text text-anchor="start" x="58.5" y="-768.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/iam.serviceAccountAdmin</text>
 </g>
 <!-- IamBinding::::roles/owner -->
-<g id="node8" class="node">
+<g id="node10" class="node">
 <title>IamBinding::::roles/owner</title>
 <polygon fill="#e5e5e5" stroke="#dddddd" points="221,-737 114,-737 114,-679 221,-679 221,-737"/>
 <text text-anchor="start" x="126.5" y="-717.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
 <text text-anchor="start" x="126.5" y="-692.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/owner</text>
 </g>
 <!-- IamBinding::::roles/resourcemanager.projectIamAdmin -->
-<g id="node9" class="node">
+<g id="node11" class="node">
 <title>IamBinding::::roles/resourcemanager.projectIamAdmin</title>
 <polygon fill="#e5e5e5" stroke="#dddddd" points="311,-661 24,-661 24,-603 311,-603 311,-661"/>
 <text text-anchor="start" x="36.5" y="-641.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
 <text text-anchor="start" x="36.5" y="-616.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/resourcemanager.projectIam...</text>
 </g>
 <!-- IamBinding::::roles/storage.admin -->
-<g id="node10" class="node">
+<g id="node12" class="node">
 <title>IamBinding::::roles/storage.admin</title>
 <polygon fill="#e5e5e5" stroke="#dddddd" points="251,-585 84,-585 84,-527 251,-527 251,-585"/>
 <text text-anchor="start" x="96.5" y="-565.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
 <text text-anchor="start" x="96.5" y="-540.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/storage.admin</text>
 </g>
 <!-- IamBinding::::roles/storage.objectAdmin -->
-<g id="node11" class="node">
+<g id="node13" class="node">
 <title>IamBinding::::roles/storage.objectAdmin</title>
 <polygon fill="#e5e5e5" stroke="#dddddd" points="273.5,-509 61.5,-509 61.5,-451 273.5,-451 273.5,-509"/>
 <text text-anchor="start" x="73.5" y="-489.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamBinding</text>
 <text text-anchor="start" x="73.5" y="-464.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">roles/storage.objectAdmin</text>
 </g>
 <!-- IamPolicy::::policy -->
-<g id="node12" class="node">
+<g id="node14" class="node">
 <title>IamPolicy::::policy</title>
 <polygon fill="#e5e5e5" stroke="#dddddd" points="213.5,-433 121.5,-433 121.5,-375 213.5,-375 213.5,-433"/>
 <text text-anchor="start" x="133.5" y="-413.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">IamPolicy</text>
 <text text-anchor="start" x="133.5" y="-388.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">policy</text>
-</g>
-<!-- Disk::::821594300226313540 -->
-<g id="node13" class="node">
-<title>Disk::::821594300226313540</title>
-<polygon fill="#e5e5e5" stroke="#dddddd" points="477,-225 377,-225 377,-167 477,-167 477,-225"/>
-<text text-anchor="start" x="389" y="-205.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">Disk</text>
-<text text-anchor="start" x="389" y="-180.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">extra&#45;disk</text>
-</g>
-<!-- Disk::::7781482283910405429 -->
-<g id="node14" class="node">
-<title>Disk::::7781482283910405429</title>
-<polygon fill="#e5e5e5" stroke="#dddddd" points="469.5,-301 384.5,-301 384.5,-243 469.5,-243 469.5,-301"/>
-<text text-anchor="start" x="397" y="-281.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">Disk</text>
-<text text-anchor="start" x="397" y="-256.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">s1&#45;2&#45;uk1</text>
 </g>
 <!-- ServiceAccount::::112950954233185370823 -->
 <g id="node15" class="node">
@@ -154,26 +154,26 @@
 <!-- VmInstance::::2879938255639911733&#45;&gt;Network::::4210819110226468163 -->
 <g id="edge2" class="edge">
 <title>VmInstance::::2879938255639911733&#45;&gt;Network::::4210819110226468163</title>
-<path fill="none" stroke="#707070" d="M217.73,-90.23C284.03,-78.7 405.42,-63.31 507,-82 515.68,-83.6 524.67,-86.18 533.25,-89.14"/>
-<polygon fill="#707070" stroke="#707070" points="532.14,-92.45 542.73,-92.61 534.55,-85.88 532.14,-92.45"/>
-</g>
-<!-- VmInstance::::2879938255639911733&#45;&gt;SubNetwork::::6178918638745656621 -->
-<g id="edge3" class="edge">
-<title>VmInstance::::2879938255639911733&#45;&gt;SubNetwork::::6178918638745656621</title>
-<path fill="none" stroke="#707070" d="M217.54,-103.81C251.17,-106.42 296.76,-109.96 336.73,-113.07"/>
-<polygon fill="#707070" stroke="#707070" points="336.52,-116.56 346.76,-113.85 337.06,-109.58 336.52,-116.56"/>
+<path fill="none" stroke="#707070" d="M217.72,-82.59C286.66,-61.35 413.98,-33.83 507,-82 533.52,-95.73 552.52,-123.92 564.54,-147.5"/>
+<polygon fill="#707070" stroke="#707070" points="561.45,-149.13 568.97,-156.59 567.74,-146.07 561.45,-149.13"/>
 </g>
 <!-- VmInstance::::2879938255639911733&#45;&gt;Disk::::821594300226313540 -->
 <g id="edge5" class="edge">
 <title>VmInstance::::2879938255639911733&#45;&gt;Disk::::821594300226313540</title>
-<path fill="none" stroke="#707070" d="M217.62,-109.95C245.54,-116.38 280.85,-125.82 311,-138 327.97,-144.85 330.75,-149.58 347,-158 353.6,-161.42 360.55,-164.91 367.49,-168.33"/>
-<polygon fill="#707070" stroke="#707070" points="366.37,-171.68 376.89,-172.93 369.45,-165.39 366.37,-171.68"/>
+<path fill="none" stroke="#707070" d="M217.54,-103.81C259.91,-107.1 321.27,-111.87 366.46,-115.38"/>
+<polygon fill="#707070" stroke="#707070" points="366.46,-118.89 376.7,-116.17 367.01,-111.91 366.46,-118.89"/>
 </g>
 <!-- VmInstance::::2879938255639911733&#45;&gt;Disk::::7781482283910405429 -->
 <g id="edge4" class="edge">
 <title>VmInstance::::2879938255639911733&#45;&gt;Disk::::7781482283910405429</title>
-<path fill="none" stroke="#707070" d="M217.76,-102.01C248.01,-105.7 285.67,-115.05 311,-138 344.76,-168.6 316.25,-200.37 347,-234 354.78,-242.51 364.88,-249.32 375.25,-254.68"/>
-<polygon fill="#707070" stroke="#707070" points="373.83,-257.88 384.37,-259.02 376.84,-251.56 373.83,-257.88"/>
+<path fill="none" stroke="#707070" d="M217.62,-109.95C245.54,-116.38 280.85,-125.82 311,-138 327.97,-144.85 330.75,-149.58 347,-158 356.02,-162.67 365.71,-167.49 375.1,-172.06"/>
+<polygon fill="#707070" stroke="#707070" points="373.84,-175.34 384.36,-176.54 376.88,-169.03 373.84,-175.34"/>
+</g>
+<!-- VmInstance::::2879938255639911733&#45;&gt;SubNetwork::::6178918638745656621 -->
+<g id="edge3" class="edge">
+<title>VmInstance::::2879938255639911733&#45;&gt;SubNetwork::::6178918638745656621</title>
+<path fill="none" stroke="#707070" d="M217.76,-102.01C248.01,-105.7 285.67,-115.05 311,-138 344.76,-168.6 316.25,-200.37 347,-234 347.63,-234.69 348.27,-235.36 348.93,-236.03"/>
+<polygon fill="#707070" stroke="#707070" points="346.68,-238.71 356.47,-242.75 351.33,-233.48 346.68,-238.71"/>
 </g>
 </g>
 </svg>

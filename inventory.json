@@ -1,7 +1,7 @@
 {
     "command": "list",
     "commandOptions": {
-        "dotFile": "output/ae0d533c-0bbb-43dd-946b-4005afc9fca7.dot",
+        "dotFile": "output/4e6d73d1-0e83-4c75-ae1d-6a38562cb10c.dot",
         "title": "",
         "provider": [
             "google"
@@ -12,8 +12,8 @@
     },
     "programOptions": {
         "infra": "iac_google.js",
-        "json": "output/gc-list-ae0d533c-0bbb-43dd-946b-4005afc9fca7.json",
-        "config": "input/config-ae0d533c-0bbb-43dd-946b-4005afc9fca7.js"
+        "json": "output/gc-list-4e6d73d1-0e83-4c75-ae1d-6a38562cb10c.json",
+        "config": "input/config-4e6d73d1-0e83-4c75-ae1d-6a38562cb10c.js"
     },
     "result": {
         "error": false,
@@ -53,6 +53,96 @@
                                 "namespace": "",
                                 "dependencies": [],
                                 "managedByUs": true,
+                                "show": true
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Disk",
+                        "resources": [
+                            {
+                                "uri": "google::Disk::821594300226313540",
+                                "name": "extra-disk",
+                                "displayName": "extra-disk",
+                                "id": "821594300226313540",
+                                "providerName": "google",
+                                "type": "Disk",
+                                "live": {
+                                    "id": "821594300226313540",
+                                    "creationTimestamp": "2021-06-23T23:18:20.030-07:00",
+                                    "name": "extra-disk",
+                                    "sizeGb": "500",
+                                    "zone": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a",
+                                    "status": "READY",
+                                    "selfLink": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a/disks/extra-disk",
+                                    "type": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a/diskTypes/pd-standard",
+                                    "lastAttachTimestamp": "2021-06-23T23:19:19.527-07:00",
+                                    "users": [
+                                        "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a/instances/s1-2-uk1"
+                                    ],
+                                    "labels": {
+                                        "managed-by": "grucloud",
+                                        "stage": "dev"
+                                    },
+                                    "labelFingerprint": "2XCNew8FA10=",
+                                    "physicalBlockSizeBytes": "4096",
+                                    "kind": "compute#disk"
+                                },
+                                "cannotBeDeleted": false,
+                                "isDefault": false,
+                                "namespace": "",
+                                "dependencies": [],
+                                "managedByUs": true,
+                                "show": true
+                            },
+                            {
+                                "uri": "google::Disk::7781482283910405429",
+                                "name": "s1-2-uk1",
+                                "displayName": "s1-2-uk1",
+                                "id": "7781482283910405429",
+                                "providerName": "google",
+                                "type": "Disk",
+                                "live": {
+                                    "id": "7781482283910405429",
+                                    "creationTimestamp": "2021-06-23T23:19:07.372-07:00",
+                                    "name": "s1-2-uk1",
+                                    "sizeGb": "20",
+                                    "zone": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a",
+                                    "status": "READY",
+                                    "selfLink": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a/disks/s1-2-uk1",
+                                    "sourceImage": "https://www.googleapis.com/compute/v1/projects/centos-cloud/global/images/centos-8-v20210609",
+                                    "sourceImageId": "2641454634546009436",
+                                    "type": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a/diskTypes/pd-standard",
+                                    "licenses": [
+                                        "https://www.googleapis.com/compute/v1/projects/centos-cloud/global/licenses/centos-8"
+                                    ],
+                                    "guestOsFeatures": [
+                                        {
+                                            "type": "UEFI_COMPATIBLE"
+                                        },
+                                        {
+                                            "type": "VIRTIO_SCSI_MULTIQUEUE"
+                                        },
+                                        {
+                                            "type": "SEV_CAPABLE"
+                                        }
+                                    ],
+                                    "lastAttachTimestamp": "2021-06-23T23:19:07.372-07:00",
+                                    "users": [
+                                        "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a/instances/s1-2-uk1"
+                                    ],
+                                    "labelFingerprint": "42WmSpB8rSM=",
+                                    "licenseCodes": [
+                                        "5731035067256925298"
+                                    ],
+                                    "physicalBlockSizeBytes": "4096",
+                                    "kind": "compute#disk"
+                                },
+                                "cannotBeDeleted": false,
+                                "isDefault": false,
+                                "namespace": "",
+                                "dependencies": [],
+                                "managedByUs": false,
                                 "show": true
                             }
                         ]
@@ -350,96 +440,6 @@
                                 "namespace": "",
                                 "dependencies": [],
                                 "managedByUs": true,
-                                "show": true
-                            }
-                        ]
-                    },
-                    {
-                        "type": "Disk",
-                        "resources": [
-                            {
-                                "uri": "google::Disk::821594300226313540",
-                                "name": "extra-disk",
-                                "displayName": "extra-disk",
-                                "id": "821594300226313540",
-                                "providerName": "google",
-                                "type": "Disk",
-                                "live": {
-                                    "id": "821594300226313540",
-                                    "creationTimestamp": "2021-06-23T23:18:20.030-07:00",
-                                    "name": "extra-disk",
-                                    "sizeGb": "500",
-                                    "zone": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a",
-                                    "status": "READY",
-                                    "selfLink": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a/disks/extra-disk",
-                                    "type": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a/diskTypes/pd-standard",
-                                    "lastAttachTimestamp": "2021-06-23T23:19:19.527-07:00",
-                                    "users": [
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a/instances/s1-2-uk1"
-                                    ],
-                                    "labels": {
-                                        "managed-by": "grucloud",
-                                        "stage": "dev"
-                                    },
-                                    "labelFingerprint": "2XCNew8FA10=",
-                                    "physicalBlockSizeBytes": "4096",
-                                    "kind": "compute#disk"
-                                },
-                                "cannotBeDeleted": false,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "managedByUs": true,
-                                "show": true
-                            },
-                            {
-                                "uri": "google::Disk::7781482283910405429",
-                                "name": "s1-2-uk1",
-                                "displayName": "s1-2-uk1",
-                                "id": "7781482283910405429",
-                                "providerName": "google",
-                                "type": "Disk",
-                                "live": {
-                                    "id": "7781482283910405429",
-                                    "creationTimestamp": "2021-06-23T23:19:07.372-07:00",
-                                    "name": "s1-2-uk1",
-                                    "sizeGb": "20",
-                                    "zone": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a",
-                                    "status": "READY",
-                                    "selfLink": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a/disks/s1-2-uk1",
-                                    "sourceImage": "https://www.googleapis.com/compute/v1/projects/centos-cloud/global/images/centos-8-v20210609",
-                                    "sourceImageId": "2641454634546009436",
-                                    "type": "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a/diskTypes/pd-standard",
-                                    "licenses": [
-                                        "https://www.googleapis.com/compute/v1/projects/centos-cloud/global/licenses/centos-8"
-                                    ],
-                                    "guestOsFeatures": [
-                                        {
-                                            "type": "UEFI_COMPATIBLE"
-                                        },
-                                        {
-                                            "type": "VIRTIO_SCSI_MULTIQUEUE"
-                                        },
-                                        {
-                                            "type": "SEV_CAPABLE"
-                                        }
-                                    ],
-                                    "lastAttachTimestamp": "2021-06-23T23:19:07.372-07:00",
-                                    "users": [
-                                        "https://www.googleapis.com/compute/v1/projects/grucloud-test/zones/europe-west4-a/instances/s1-2-uk1"
-                                    ],
-                                    "labelFingerprint": "42WmSpB8rSM=",
-                                    "licenseCodes": [
-                                        "5731035067256925298"
-                                    ],
-                                    "physicalBlockSizeBytes": "4096",
-                                    "kind": "compute#disk"
-                                },
-                                "cannotBeDeleted": false,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "managedByUs": false,
                                 "show": true
                             }
                         ]
