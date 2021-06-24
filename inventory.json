@@ -1,7 +1,7 @@
 {
     "command": "list",
     "commandOptions": {
-        "dotFile": "output/003acb12-5702-4d21-89bc-47a55ea20650.dot",
+        "dotFile": "output/35cba724-f8b6-4613-bcf0-40a5144fe536.dot",
         "title": "",
         "provider": [
             "openstack"
@@ -12,7 +12,7 @@
     },
     "programOptions": {
         "infra": "iac_openstack.js",
-        "json": "output/gc-list-003acb12-5702-4d21-89bc-47a55ea20650.json"
+        "json": "output/gc-list-35cba724-f8b6-4613-bcf0-40a5144fe536.json"
     },
     "result": {
         "error": false,
@@ -23,55 +23,46 @@
                 "error": false,
                 "results": [
                     {
-                        "type": "Subnet",
+                        "type": "Network",
                         "resources": [
                             {
-                                "uri": "openstack::Subnet::7704de0b-5838-4eaf-9be5-9e136f460951",
-                                "name": "::10.0.0.0/16",
-                                "displayName": "::10.0.0.0/16",
-                                "id": "7704de0b-5838-4eaf-9be5-9e136f460951",
+                                "uri": "openstack::Network::dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
+                                "name": "rhmig",
+                                "displayName": "rhmig",
+                                "id": "dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
                                 "providerName": "openstack",
-                                "type": "Subnet",
+                                "type": "Network",
                                 "live": {
-                                    "service_types": [],
+                                    "status": "ACTIVE",
+                                    "subnets": [
+                                        "7704de0b-5838-4eaf-9be5-9e136f460951"
+                                    ],
+                                    "availability_zone_hints": [],
+                                    "availability_zones": [
+                                        "nova"
+                                    ],
                                     "description": "",
-                                    "enable_dhcp": true,
-                                    "network_id": "dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
+                                    "name": "rhmig",
+                                    "tags": [],
                                     "tenant_id": "291a80ce2c8d490fb030c3a3b76eeb02",
-                                    "created_at": "2021-06-19T07:54:22Z",
-                                    "dns_nameservers": [
-                                        "0.0.0.0"
-                                    ],
+                                    "created_at": "2021-06-19T07:54:15Z",
+                                    "admin_state_up": true,
                                     "updated_at": "2021-06-19T07:54:22Z",
-                                    "gateway_ip": null,
-                                    "ipv6_ra_mode": null,
-                                    "allocation_pools": [
-                                        {
-                                            "start": "10.0.182.220",
-                                            "end": "10.0.219.108"
-                                        }
-                                    ],
-                                    "host_routes": [],
-                                    "revision_number": 2,
-                                    "ip_version": 4,
-                                    "ipv6_address_mode": null,
-                                    "cidr": "10.0.0.0/16",
+                                    "provider:network_type": "vrack",
+                                    "ipv6_address_scope": null,
+                                    "qos_policy_id": null,
+                                    "mtu": 9000,
+                                    "revision_number": 4,
+                                    "ipv4_address_scope": null,
+                                    "shared": false,
                                     "project_id": "291a80ce2c8d490fb030c3a3b76eeb02",
-                                    "id": "7704de0b-5838-4eaf-9be5-9e136f460951",
-                                    "subnetpool_id": null,
-                                    "name": ""
+                                    "id": "dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
+                                    "provider:segmentation_id": 0
                                 },
                                 "cannotBeDeleted": false,
                                 "isDefault": false,
                                 "namespace": "",
-                                "dependencies": [
-                                    {
-                                        "type": "Network",
-                                        "ids": [
-                                            "dfb3e958-5c68-4137-9ffa-f02fdc6a0b16"
-                                        ]
-                                    }
-                                ],
+                                "dependencies": [],
                                 "managedByUs": false,
                                 "show": true
                             }
@@ -141,46 +132,55 @@
                         ]
                     },
                     {
-                        "type": "Network",
+                        "type": "Subnet",
                         "resources": [
                             {
-                                "uri": "openstack::Network::dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
-                                "name": "rhmig",
-                                "displayName": "rhmig",
-                                "id": "dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
+                                "uri": "openstack::Subnet::7704de0b-5838-4eaf-9be5-9e136f460951",
+                                "name": "::10.0.0.0/16",
+                                "displayName": "::10.0.0.0/16",
+                                "id": "7704de0b-5838-4eaf-9be5-9e136f460951",
                                 "providerName": "openstack",
-                                "type": "Network",
+                                "type": "Subnet",
                                 "live": {
-                                    "status": "ACTIVE",
-                                    "subnets": [
-                                        "7704de0b-5838-4eaf-9be5-9e136f460951"
-                                    ],
-                                    "availability_zone_hints": [],
-                                    "availability_zones": [
-                                        "nova"
-                                    ],
+                                    "service_types": [],
                                     "description": "",
-                                    "name": "rhmig",
-                                    "tags": [],
+                                    "enable_dhcp": true,
+                                    "network_id": "dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
                                     "tenant_id": "291a80ce2c8d490fb030c3a3b76eeb02",
-                                    "created_at": "2021-06-19T07:54:15Z",
-                                    "admin_state_up": true,
+                                    "created_at": "2021-06-19T07:54:22Z",
+                                    "dns_nameservers": [
+                                        "0.0.0.0"
+                                    ],
                                     "updated_at": "2021-06-19T07:54:22Z",
-                                    "provider:network_type": "vrack",
-                                    "ipv6_address_scope": null,
-                                    "qos_policy_id": null,
-                                    "mtu": 9000,
-                                    "revision_number": 4,
-                                    "ipv4_address_scope": null,
-                                    "shared": false,
+                                    "gateway_ip": null,
+                                    "ipv6_ra_mode": null,
+                                    "allocation_pools": [
+                                        {
+                                            "start": "10.0.182.220",
+                                            "end": "10.0.219.108"
+                                        }
+                                    ],
+                                    "host_routes": [],
+                                    "revision_number": 2,
+                                    "ip_version": 4,
+                                    "ipv6_address_mode": null,
+                                    "cidr": "10.0.0.0/16",
                                     "project_id": "291a80ce2c8d490fb030c3a3b76eeb02",
-                                    "id": "dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
-                                    "provider:segmentation_id": 0
+                                    "id": "7704de0b-5838-4eaf-9be5-9e136f460951",
+                                    "subnetpool_id": null,
+                                    "name": ""
                                 },
                                 "cannotBeDeleted": false,
                                 "isDefault": false,
                                 "namespace": "",
-                                "dependencies": [],
+                                "dependencies": [
+                                    {
+                                        "type": "Network",
+                                        "ids": [
+                                            "dfb3e958-5c68-4137-9ffa-f02fdc6a0b16"
+                                        ]
+                                    }
+                                ],
                                 "managedByUs": false,
                                 "show": true
                             }
