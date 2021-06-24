@@ -1,18 +1,23 @@
 {
     "command": "list",
     "commandOptions": {
-        "dotFile": "output/b56699f8-780a-4698-b940-8c87426849a5.dot",
+        "dotFile": "output/9dc5f3ad-f198-4fc9-b165-e10371d53d02.dot",
         "title": "",
         "provider": [
             "openstack"
         ],
         "all": true,
         "graph": true,
-        "defaultExclude": true
+        "defaultExclude": true,
+        "typesExclude": [
+            "IamBinding",
+            "IamPolicy",
+            "ServiceAccount"
+        ]
     },
     "programOptions": {
         "infra": "iac_openstack.js",
-        "json": "output/gc-list-b56699f8-780a-4698-b940-8c87426849a5.json"
+        "json": "output/gc-list-9dc5f3ad-f198-4fc9-b165-e10371d53d02.json"
     },
     "result": {
         "error": false,
@@ -22,6 +27,52 @@
                 "kind": "livesPerType",
                 "error": false,
                 "results": [
+                    {
+                        "type": "Network",
+                        "resources": [
+                            {
+                                "uri": "openstack::Network::dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
+                                "name": "rhmig",
+                                "displayName": "rhmig",
+                                "id": "dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
+                                "providerName": "openstack",
+                                "type": "Network",
+                                "live": {
+                                    "status": "ACTIVE",
+                                    "subnets": [
+                                        "7704de0b-5838-4eaf-9be5-9e136f460951"
+                                    ],
+                                    "availability_zone_hints": [],
+                                    "availability_zones": [
+                                        "nova"
+                                    ],
+                                    "description": "",
+                                    "name": "rhmig",
+                                    "tags": [],
+                                    "tenant_id": "291a80ce2c8d490fb030c3a3b76eeb02",
+                                    "created_at": "2021-06-19T07:54:15Z",
+                                    "admin_state_up": true,
+                                    "updated_at": "2021-06-19T07:54:22Z",
+                                    "provider:network_type": "vrack",
+                                    "ipv6_address_scope": null,
+                                    "qos_policy_id": null,
+                                    "mtu": 9000,
+                                    "revision_number": 4,
+                                    "ipv4_address_scope": null,
+                                    "shared": false,
+                                    "project_id": "291a80ce2c8d490fb030c3a3b76eeb02",
+                                    "id": "dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
+                                    "provider:segmentation_id": 0
+                                },
+                                "cannotBeDeleted": false,
+                                "isDefault": false,
+                                "namespace": "",
+                                "dependencies": [],
+                                "managedByUs": false,
+                                "show": true
+                            }
+                        ]
+                    },
                     {
                         "type": "Subnet",
                         "resources": [
@@ -72,52 +123,6 @@
                                         ]
                                     }
                                 ],
-                                "managedByUs": false,
-                                "show": true
-                            }
-                        ]
-                    },
-                    {
-                        "type": "Network",
-                        "resources": [
-                            {
-                                "uri": "openstack::Network::dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
-                                "name": "rhmig",
-                                "displayName": "rhmig",
-                                "id": "dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
-                                "providerName": "openstack",
-                                "type": "Network",
-                                "live": {
-                                    "status": "ACTIVE",
-                                    "subnets": [
-                                        "7704de0b-5838-4eaf-9be5-9e136f460951"
-                                    ],
-                                    "availability_zone_hints": [],
-                                    "availability_zones": [
-                                        "nova"
-                                    ],
-                                    "description": "",
-                                    "name": "rhmig",
-                                    "tags": [],
-                                    "tenant_id": "291a80ce2c8d490fb030c3a3b76eeb02",
-                                    "created_at": "2021-06-19T07:54:15Z",
-                                    "admin_state_up": true,
-                                    "updated_at": "2021-06-19T07:54:22Z",
-                                    "provider:network_type": "vrack",
-                                    "ipv6_address_scope": null,
-                                    "qos_policy_id": null,
-                                    "mtu": 9000,
-                                    "revision_number": 4,
-                                    "ipv4_address_scope": null,
-                                    "shared": false,
-                                    "project_id": "291a80ce2c8d490fb030c3a3b76eeb02",
-                                    "id": "dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
-                                    "provider:segmentation_id": 0
-                                },
-                                "cannotBeDeleted": false,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
                                 "managedByUs": false,
                                 "show": true
                             }
